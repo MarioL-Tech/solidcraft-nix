@@ -2,6 +2,10 @@
 
 An unofficial Nix wrapper for the upstream SolidCraft 0.48.1 Linux AppImage. It downloads the release and verifies its pinned SHA-256; it does not build the application from source or bundle the AppImage in this repository.
 
+![SolidCraft showing a 3D model of a monitor adapter](images/solidcraft.png)
+
+*SolidCraft 0.48.1 showing a monitor adapter model.*
+
 ## Requirements and use
 
 Requires Nix with flakes enabled and x86_64 Linux. From a checkout:
