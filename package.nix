@@ -7,11 +7,11 @@
 
 let
   pname = "solidcraft";
-  version = "0.45.0";
+  version = "0.48.1";
   src = fetchurl {
     url = "https://github.com/tangency-labs/solidcraft/releases/download/v${version}/solidcraft-${version}-linux-x86_64.AppImage";
-    # SHA256SUMS.txt from the same upstream release.
-    hash = "sha256-rEUzhf/UXtWcYQS8wwqgHLhTvP4zi96qfkLCTMbNHC8=";
+    # SHA-256 digest published for the upstream release asset.
+    hash = "sha256-yCdMA3RXozpjHUQ2a4QweJRQh0ovpW33fWgC8Lvca8Y=";
   };
   contents = appimageTools.extractType2 { inherit pname version src; };
   desktopItem = makeDesktopItem {
