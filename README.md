@@ -1,6 +1,6 @@
 # SolidCraft for Nix
 
-An unofficial Nix wrapper for the upstream SolidCraft 0.50.0 Linux AppImage. It downloads the release and verifies its pinned SHA-256; it does not build the application from source or bundle the AppImage in this repository.
+An unofficial Nix wrapper for the upstream SolidCraft 0.51.1 Linux AppImage. It downloads the release and verifies its pinned SHA-256; it does not build the application from source or bundle the AppImage in this repository.
 
 ![SolidCraft showing a 3D model of a monitor adapter](images/solidcraft.png)
 
@@ -37,4 +37,4 @@ The module is disabled by default and uses the host's `pkgs`, not this flake's p
 
 ## Licensing and limitations
 
-Upstream: [SolidCraft](https://github.com/tangency-labs/solidcraft), [v0.50.0 release](https://github.com/tangency-labs/solidcraft/releases/tag/v0.50.0). The package metadata identifies the application license as Apache-2.0; consult upstream for its license, notices, bundled components, and any separate terms. This repository does not grant rights to upstream assets. Only the x86_64 Linux binary is packaged; upstream availability and runtime behavior are not guaranteed. This is an independent packaging project, not an upstream release.
+Upstream: [SolidCraft](https://github.com/tangency-labs/solidcraft), [v0.51.1 release](https://github.com/tangency-labs/solidcraft/releases/tag/v0.51.1). The package metadata identifies the application license as Apache-2.0; consult upstream for its license, notices, bundled components, and any separate terms. This repository does not grant rights to upstream assets. Only the x86_64 Linux binary is packaged; upstream availability and runtime behavior are not guaranteed. This is an independent packaging project, not an upstream release.
